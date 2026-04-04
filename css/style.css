@@ -1,0 +1,84 @@
+:root {
+    --cyan: hsl(171, 66%, 44%);
+    --blue: hsl(233, 100%, 69%);
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    color: var(--grayish-blue);
+    text-align: center;
+    background-image: url('images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1, h2, h3 {
+    color: var(--dark-grayish-blue);
+    margin-bottom: 1.5rem;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    padding: 0 20px;
+}
+
+
+.cta-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 30px;
+}
+
+.btn {
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: opacity 0.3s;
+}
+
+.btn-cyan { background-color: var(--cyan); border-bottom: 3px solid #24917d; }
+.btn-blue { background-color: var(--blue); border-bottom: 3px solid #5261cc; }
+
+.btn:hover { opacity: 0.8; }
+
+@media (min-width: 768px) {
+    body {
+        background-image: url('images/bg-header-desktop.png');
+    }
+
+    .cta-group {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .feature-grid {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        margin-top: 50px;
+    }
+
+    .feature-image {
+        flex: 1;
+        margin-left: -50px; /* Pour l'effet d'image coupée sur le côté */
+    }
+
+    .feature-content {
+        flex: 1;
+        padding-left: 50px;
+    }
+}
