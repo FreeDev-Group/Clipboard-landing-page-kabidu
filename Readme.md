@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/yourusername/clipboard-landing-page)
+- Solution URL: [GitHub Repository](https://www.frontendmentor.io/solutions/clipvaul-HxaqPyncfV)
 - Live Site URL: [Live Demo](https://freedev-group.github.io/Clipboard-landing-page-kabidu/)
 
 ## My process
