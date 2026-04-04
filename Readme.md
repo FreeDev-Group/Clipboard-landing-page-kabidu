@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/yourusername/clipboard-landing-page)
-- Live Site URL: [Live Demo](https://yourusername.github.io/clipboard-landing-page)
+- Live Site URL: [Live Demo](https://freedev-group.github.io/Clipboard-landing-page-kabidu/)
 
 ## My process
 
