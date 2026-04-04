@@ -74,7 +74,7 @@ p {
 
     .feature-image {
         flex: 1;
-        margin-left: -50px; /* Pour l'effet d'image coupée sur le côté */
+        margin-left: -50px; 
     }
 
     .feature-content {
